@@ -48,7 +48,7 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 ### Course 1: Supervised Machine Learning
 
-\- \*\*Week 1:\*\* ML = learning from data instead of explicit programming. Supervised learning maps inputs to outputs (regression for continuous, classification for categories). Unsupervised learning finds hidden patterns (clustering, anomaly detection, dimensionality reduction).
+**Week 1**: ML = learning from data instead of explicit programming. Supervised learning maps inputs to outputs (regression for continuous, classification for categories). Unsupervised learning finds hidden patterns (clustering, anomaly detection, dimensionality reduction).
 
 
 
