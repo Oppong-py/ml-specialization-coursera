@@ -20,7 +20,6 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 # | Course | Status |
 
-|---|--------|--------|
 
 | 1 | Supervised Machine Learning: Regression and Classification | In Progress |
 
