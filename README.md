@@ -1,4 +1,4 @@
-\# Machine Learning Specialization — Andrew Ng (Stanford / Coursera)
+# Machine Learning Specialization — Andrew Ng (Stanford / Coursera)
 
 
 
@@ -6,7 +6,7 @@ My notes, implementations, and experiments from the \[Machine Learning Specializ
 
 
 
-\## Why I'm Taking This
+## Why I'm Taking This
 
 
 
@@ -14,11 +14,11 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 
 
-\## Course Structure
+## Course Structure
 
 
 
-| # | Course | Status |
+# | Course | Status |
 
 |---|--------|--------|
 
@@ -30,7 +30,7 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 
 
-\## Repository Structure
+## Repository Structure
 
 
 
@@ -38,33 +38,33 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 
 
-\## Key Takeaways
+## Key Takeaways
 
 
 
-\*Updated as I progress through each course.\*
+*Updated as I progress through each course.\*
 
 
 
-\### Course 1: Supervised Machine Learning
+### Course 1: Supervised Machine Learning
 
 \- \*\*Week 1:\*\* ML = learning from data instead of explicit programming. Supervised learning maps inputs to outputs (regression for continuous, classification for categories). Unsupervised learning finds hidden patterns (clustering, anomaly detection, dimensionality reduction).
 
 
 
-\### Course 2: Advanced Learning Algorithms
+### Course 2: Advanced Learning Algorithms
 
 \- (Coming soon)
 
 
 
-\### Course 3: Unsupervised Learning
+### Course 3: Unsupervised Learning
 
 \- (Coming soon)
 
 
 
-\## Connect
+## Connect
 
 
 
