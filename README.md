@@ -41,7 +41,7 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 
 
-*Updated as I progress through each course.\*
+*Updated as I progress through each course.*
 
 
 
