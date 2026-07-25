@@ -1,62 +1,28 @@
-# Week 1: Introduction to Machine Learning
+# Week 1: Cost Function
 
+## Model Parameters
+For f_wb(x) = Wx + b:
+- **W and b** = parameters (adjustable during training)
+- **x** = feature (input, stays constant for a given example)
+- **f_wb(x)** = prediction (ŷ)
 
+A prediction is a value close to the target — rarely exact, because the best-fit line can't pass through every data point.
 
-## What is Machine Learning?
+## Squared Error Cost Function
+Measures how far predictions are from targets. Formula:
 
-The science of building systems that learn from data to complete tasks without being explicitly programmed each time. Arthur Samuel (1959) — built a checkers-playing algorithm that improved by learning from data.
+J(w,b) = (1/2m) × Σ(ŷ⁽ⁱ⁾ - y⁽ⁱ⁾)²
 
+Steps:
+1. Find difference between prediction and target
+2. Square it
+3. Sum across all m training examples
+4. Divide by 2m (the 2 is a convention that simplifies later math)
 
+**Goal:** Find W and b that minimize J — lower cost = more accurate model.
 
-## Types of Machine Learning
+## Simplified Case: b = 0
+When f_w(x) = Wx (one parameter), J(w) is a 2D curve. You try different values of W, compute J for each, and look for the minimum.
 
-
-
-### 1. Supervised Learning
-
-Input (X) → Output (Y). The model is trained with both input data AND the expected output, so it can predict new outputs for unseen inputs.
-
-
-
-*Regression* — predict a number from infinitely many possibilities.
-
-\- Example: house price prediction based on square footage
-
-\- Uses a regression line/curve/function to map inputs to continuous outputs
-
-
-
-*Classification* — predict from a small set of categories.
-
-\- Example: breast cancer detection (malignant vs. benign) based on tumor size
-
-\- Can use multiple input features, not limited to numbers
-
-
-
-### 2. Unsupervised Learning
-
-No output labels — only input data. The model finds patterns and structures on its own.
-
-
-
-*Clustering* — groups similar data points together into clusters.
-
-\- Example: customer segmentation (grouping buyers by behavior without predefined categories)
-
-
-
-\*\*Anomaly Detection\*\* — finds unusual/abnormal data points.
-
-\- Example: fraud detection in financial transactions
-
-
-
-\*\*Dimensionality Reduction\*\* — compresses a large dataset into a smaller one while preserving the key information with minimal loss.
-
-
-
-\## Tools
-
-\- Jupyter Notebook: the standard environment for building and experimenting with ML models
-
+## Two Parameters: W and b
+When both parameters are present, J(w,b) becomes a 3D surface (bowl shape). Can be visualized as a contour plot — each contour line represents points with equal cost.
