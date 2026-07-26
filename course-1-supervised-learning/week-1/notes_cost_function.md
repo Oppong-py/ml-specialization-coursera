@@ -1,8 +1,8 @@
 # Week 1: Cost Function
 
 ## Model Parameters
-For f_wb(x) = Wx + b:
-- **W and b** = parameters (adjustable during training)
+For f_wb(x) = wx + b:
+- **w and b** = parameters (adjustable during training)
 - **x** = feature (input, stays constant for a given example)
 - **f_wb(x)** = prediction (ŷ)
 
