@@ -6,8 +6,11 @@ We need values for w and b that minimize J(w,b). Testing every possible combinat
 ## Gradient Descent Algorithm
 
 tmp_w = w - α × (∂J(w,b)/∂w)
+
 tmp_b = b - α × (∂J(w,b)/∂b)
+
 w = tmp_w
+
 b = tmp_b
 
 Both must be updated simultaneously in each step.
