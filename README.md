@@ -48,7 +48,7 @@ I'm a Computer Science undergraduate at KNUST building toward a career in ML eng
 
 ### Course 1: Supervised Machine Learning
 
-**Week 1**: ML = learning from data instead of explicit programming. Supervised learning maps inputs to outputs (regression for continuous, classification for categories). Unsupervised learning finds hidden patterns (clustering, anomaly detection, dimensionality reduction).
+**Week 1**: ML = learning from data (Arthur Samuel, 1959). Supervised learning: regression (continuous output) vs classification (discrete categories). Unsupervised: clustering, anomaly detection, dimensionality reduction. Cost function J(w,b) = average squared error — measures model accuracy. Gradient descent finds optimal w and b by iteratively following the slope toward minimum cost. Learning rate α controls step size — too large causes divergence, too small is inefficient.
 
 
 
