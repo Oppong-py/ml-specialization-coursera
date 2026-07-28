@@ -4,10 +4,11 @@
 We need values for w and b that minimize J(w,b). Testing every possible combination is impossible — there are infinitely many. We need an algorithm to find them automatically.
 
 ## Gradient Descent Algorithm
-Repeatedly update w and b using:
 
-w = w - α × (∂J(w,b)/∂w)
-b = b - α × (∂J(w,b)/∂b)
+tmp_w = w - α × (∂J(w,b)/∂w)
+tmp_b = b - α × (∂J(w,b)/∂b)
+w = tmp_w
+b = tmp_b
 
 Both must be updated simultaneously in each step.
 
